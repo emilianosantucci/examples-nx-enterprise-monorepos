@@ -1,0 +1,12 @@
+###
+GET localhost:3331/api
+
+###
+GET localhost:3331/api/server-task-rest
+
+###
+GET localhost:3332/api
+
+###
+GET localhost:3001
+

@@ -1,10 +1,10 @@
-import { Module } from '@nestjs/common';
-
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { Module } from "@nestjs/common";
+import { ServerTasksRestModule } from "@solunion-nest/tasks";
+import { AppController } from "apps/server/tasks/src/app/app.controller";
+import { AppService } from "apps/server/tasks/src/app/app.service";
 
 @Module({
-  imports: [],
+  imports: [ServerTasksRestModule],
   controllers: [AppController],
   providers: [AppService],
 })

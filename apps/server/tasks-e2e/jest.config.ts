@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'server-server-tasks-e2e',
+  displayName: 'tasks-e2e',
   preset: '../../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -15,5 +15,5 @@ export default {
     '^.+\\.[tj]s$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../../coverage/server-server-tasks-e2e',
+  coverageDirectory: '../../../coverage/tasks-e2e',
 };

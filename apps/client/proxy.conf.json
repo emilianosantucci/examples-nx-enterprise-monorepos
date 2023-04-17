@@ -1,10 +1,10 @@
 {
   "/users": {
-    "target": "http://localhost:3331",
+    "target": "http://localhost:3331/api",
     "secure": false
   },
   "/tasks": {
-    "target": "http://localhost:3332",
+    "target": "http://localhost:3332/api",
     "secure": false
   }
 }
